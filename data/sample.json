@@ -1,0 +1,667 @@
+{
+  "version": "rss20",
+  "headers": {
+    "Content-Type": "text/xml;charset=UTF-8",
+    "Content-Length": "2989",
+    "ntCoent-Length": "13939",
+    "Cache-Control": "max-age=0, no-cache, no-store",
+    "Date": "Tue, 30 Oct 2018 20:58:32 GMT",
+    "Pragma": "no-cache",
+    "Vary": "Accept-Encoding",
+    "Server": "Apache",
+    "Content-Encoding": "gzip",
+    "Strict-Transport-Security": "max-age=157680000",
+    "Content-Language": "en",
+    "Expires": "Tue, 30 Oct 2018 20:58:32 GMT",
+    "content-msg": "DATA_SERVED_FROM_CACHE",
+    "Connection": "close"
+  },
+  "namespaces": {
+    "": "http://www.w3.org/2005/Atom",
+    "valurl": "com.times.utilities.CMSWebUtility"
+  },
+  "href": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+  "encoding": "UTF-8",
+  "status": 200,
+  "entries": [
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/tata-teleservices-narrows-losses/articleshow/66436603.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66436603.cms\" /></a>The company\u2019s revenue from operations declined 33% to `336.29 crore. Depreciation and amortisation expenses fell 80% to Rs 42.93 crore, although they rose 11% on-quarter.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Tata teleservices narrows losses",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Tata teleservices narrows losses",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66436603",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/tata-teleservices-narrows-losses/articleshow/66436603.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66436603.cms\" /></a>The company\u2019s revenue from operations declined 33% to `336.29 crore. Depreciation and amortisation expenses fell 80% to Rs 42.93 crore, although they rose 11% on-quarter.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        18,
+        9,
+        11,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-teleservices-narrows-losses/articleshow/66436603.cms"
+        }
+      ],
+      "published": "2018-10-30T23:39:11+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/tata-teleservices-narrows-losses/articleshow/66436603.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/market-outlook-nifty-fails-to-get-past-key-hurdles-pullback-bid-to-continue/articleshow/66435944.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66435944.cms\" /></a>There was volatility, but the market moved in a defined and limited range.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Market outlook: Nifty fails to get past key hurdles; pullback bid to continue",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Market outlook: Nifty fails to get past key hurdles; pullback bid to continue",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66435944",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/market-outlook-nifty-fails-to-get-past-key-hurdles-pullback-bid-to-continue/articleshow/66435944.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66435944.cms\" /></a>There was volatility, but the market moved in a defined and limited range.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        17,
+        19,
+        2,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/market-outlook-nifty-fails-to-get-past-key-hurdles-pullback-bid-to-continue/articleshow/66435944.cms"
+        }
+      ],
+      "published": "2018-10-30T22:49:02+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/market-outlook-nifty-fails-to-get-past-key-hurdles-pullback-bid-to-continue/articleshow/66435944.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/birla-corp-q2-profit-surges-to-rs-16-29-crore/articleshow/66435850.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66435850.cms\" /></a>Company officials attributed the performance to volume growth and improved price realization in the central region, primarily Uttar Pradesh.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Birla Corp Q2 profit surges to Rs 16.29 crore",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Birla Corp Q2 profit surges to Rs 16.29 crore",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66435850",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/birla-corp-q2-profit-surges-to-rs-16-29-crore/articleshow/66435850.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66435850.cms\" /></a>Company officials attributed the performance to volume growth and improved price realization in the central region, primarily Uttar Pradesh.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        17,
+        15,
+        24,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/earnings/birla-corp-q2-profit-surges-to-rs-16-29-crore/articleshow/66435850.cms"
+        }
+      ],
+      "published": "2018-10-30T22:45:24+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/birla-corp-q2-profit-surges-to-rs-16-29-crore/articleshow/66435850.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/bob-sept-qtr-profit-grows-20-on-retail-show/articleshow/66435092.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66435092.cms\" /></a>In the same quarter a year ago, profit stood at Rs 355.4 crore.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "BoB Sept qtr profit grows 20% on retail show",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "BoB Sept qtr profit grows 20% on retail show",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66435092",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/bob-sept-qtr-profit-grows-20-on-retail-show/articleshow/66435092.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66435092.cms\" /></a>In the same quarter a year ago, profit stood at Rs 355.4 crore.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        16,
+        38,
+        16,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/bob-sept-qtr-profit-grows-20-on-retail-show/articleshow/66435092.cms"
+        }
+      ],
+      "published": "2018-10-30T22:08:16+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/bob-sept-qtr-profit-grows-20-on-retail-show/articleshow/66435092.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/tata-global-beverages-q2-net-up-19-at-rs-184-cr/articleshow/66434045.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66434045.cms\" /></a>Tata Global Beverages saw volume growth of close to double digit in India during the quarter.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Tata Global Beverages Q2 net up 19% at Rs 184 cr",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Tata Global Beverages Q2 net up 19% at Rs 184 cr",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66434045",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/tata-global-beverages-q2-net-up-19-at-rs-184-cr/articleshow/66434045.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66434045.cms\" /></a>Tata Global Beverages saw volume growth of close to double digit in India during the quarter.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        15,
+        29,
+        49,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/tata-global-beverages-q2-net-up-19-at-rs-184-cr/articleshow/66434045.cms"
+        }
+      ],
+      "published": "2018-10-30T20:59:49+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tata-global-beverages-q2-net-up-19-at-rs-184-cr/articleshow/66434045.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/vakrangee-profit-plunges-99-yoy-in-sept-quarter/articleshow/66433257.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66433257.cms\" /></a>Its consolidated net profit for July-September came in at Rs 1.94 crore .",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Vakrangee profit plunges 99% YoY in Sept quarter",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Vakrangee profit plunges 99% YoY in Sept quarter",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66433257",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/vakrangee-profit-plunges-99-yoy-in-sept-quarter/articleshow/66433257.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66433257.cms\" /></a>Its consolidated net profit for July-September came in at Rs 1.94 crore .",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        14,
+        36,
+        5,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/vakrangee-profit-plunges-99-yoy-in-sept-quarter/articleshow/66433257.cms"
+        }
+      ],
+      "published": "2018-10-30T20:06:05+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/vakrangee-profit-plunges-99-yoy-in-sept-quarter/articleshow/66433257.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/tech-mahindra-q2-show-here-are-5-key-takeaways/articleshow/66432670.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66432670.cms\" /></a>",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Tech Mahindra Q2 show: Here are 5 key takeaways",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Tech Mahindra Q2 show: Here are 5 key takeaways",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66432670",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/tech-mahindra-q2-show-here-are-5-key-takeaways/articleshow/66432670.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66432670.cms\" /></a>",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        13,
+        41,
+        40,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/tech-mahindra-q2-show-here-are-5-key-takeaways/articleshow/66432670.cms"
+        }
+      ],
+      "published": "2018-10-30T19:11:40+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tech-mahindra-q2-show-here-are-5-key-takeaways/articleshow/66432670.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/after-market-overbought-oversold-stocks-sbis-rebound-sugar-rally/articleshow/66431551.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66431551.cms\" /></a>Coal India, Aarti Drugs and Hindustan Oil Exploration moved below their 200-DMAs.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "After Market: Overbought, oversold stocks; SBI\u2019s rebound & sugar rally",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "After Market: Overbought, oversold stocks; SBI\u2019s rebound & sugar rally",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66431551",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/after-market-overbought-oversold-stocks-sbis-rebound-sugar-rally/articleshow/66431551.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66431551.cms\" /></a>Coal India, Aarti Drugs and Hindustan Oil Exploration moved below their 200-DMAs.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        12,
+        23,
+        24,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/after-market-overbought-oversold-stocks-sbis-rebound-sugar-rally/articleshow/66431551.cms"
+        }
+      ],
+      "published": "2018-10-30T17:53:24+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/after-market-overbought-oversold-stocks-sbis-rebound-sugar-rally/articleshow/66431551.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/dipan-mehta-is-bullish-on-these-5-sectors-heres-why/articleshow/66431356.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66431356.cms\" /></a>\nHDFC Bank, Kotak, IndusInd and even RBL remain compounders, says Elixir Capital Founder Director",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Dipan Mehta is bullish on these 5 sectors, here\u2019s why",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Dipan Mehta is bullish on these 5 sectors, here\u2019s why",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66431356",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/dipan-mehta-is-bullish-on-these-5-sectors-heres-why/articleshow/66431356.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66431356.cms\" /></a>\nHDFC Bank, Kotak, IndusInd and even RBL remain compounders, says Elixir Capital Founder Director",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        12,
+        12,
+        16,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/expert-view/dipan-mehta-is-bullish-on-these-4-sectors-heres-why/articleshow/66431356.cms"
+        }
+      ],
+      "published": "2018-10-30T17:42:16+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/expert-view/dipan-mehta-is-bullish-on-these-4-sectors-heres-why/articleshow/66431356.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/trade-war-fears-q2-caution-drag-market-down/articleshow/66431034.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66431034.cms\" /></a>The Sensex closed down 176 points at 33,891 while the Nifty fell 52 points to 10,198.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Trade war fears, Q2 caution drag market down",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Trade war fears, Q2 caution drag market down",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66431034",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/trade-war-fears-q2-caution-drag-market-down/articleshow/66431034.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66431034.cms\" /></a>The Sensex closed down 176 points at 33,891 while the Nifty fell 52 points to 10,198.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        11,
+        47,
+        57,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/trade-war-fears-q2-caution-drag-market-down/articleshow/66431034.cms"
+        }
+      ],
+      "published": "2018-10-30T17:17:57+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/trade-war-fears-q2-caution-drag-market-down/articleshow/66431034.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/tech-view-nifty-forms-spinning-top-type-pattern-may-slip-more/articleshow/66430491.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66430491.cms\" /></a>The index slipped below the 10,200 mark to form a small bearish candle.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Tech view: Nifty forms Spinning Top-type pattern, may slip more",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Tech view: Nifty forms Spinning Top-type pattern, may slip more",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66430491",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/tech-view-nifty-forms-spinning-top-type-pattern-may-slip-more/articleshow/66430491.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66430491.cms\" /></a>The index slipped below the 10,200 mark to form a small bearish candle.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        11,
+        16,
+        32,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/tech-view-nifty-forms-spinning-top-type-pattern-may-slip-more/articleshow/66430491.cms"
+        }
+      ],
+      "published": "2018-10-30T16:46:32+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/tech-view-nifty-forms-spinning-top-type-pattern-may-slip-more/articleshow/66430491.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/fo-nifty50-in-consolidation-mood-vix-has-to-go-below-17/articleshow/66430152.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66430152.cms\" /></a>The NSE index has to continue to hold above 10,180-10,200 to extend its move towards 10,280.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "F&O: Nifty50 in consolidation mood, VIX has to go below 17",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "F&O: Nifty50 in consolidation mood, VIX has to go below 17",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66430152",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/fo-nifty50-in-consolidation-mood-vix-has-to-go-below-17/articleshow/66430152.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66430152.cms\" /></a>The NSE index has to continue to hold above 10,180-10,200 to extend its move towards 10,280.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        10,
+        54,
+        55,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/news/fo-nifty50-in-consolidation-mood-vix-has-to-go-below-17/articleshow/66430152.cms"
+        }
+      ],
+      "published": "2018-10-30T16:24:55+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/news/fo-nifty50-in-consolidation-mood-vix-has-to-go-below-17/articleshow/66430152.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/good-time-to-raise-allocation-to-equity-nilesh-shetty-quantum-mf/articleshow/66429944.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66429944.cms\" /></a>\nWe are in the early stages of a pickup in consumer demand, says the Associate Fund Manager",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Good time to raise allocation to equity: Nilesh Shetty, Quantum MF",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Good time to raise allocation to equity: Nilesh Shetty, Quantum MF",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66429944",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/good-time-to-raise-allocation-to-equity-nilesh-shetty-quantum-mf/articleshow/66429944.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66429944.cms\" /></a>\nWe are in the early stages of a pickup in consumer demand, says the Associate Fund Manager",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        10,
+        38,
+        23,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/expert-view/this-is-a-good-time-to-allocate-to-equities-nilesh-shetty-quantum-mf/articleshow/66429944.cms"
+        }
+      ],
+      "published": "2018-10-30T16:08:23+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/expert-view/this-is-a-good-time-to-allocate-to-equities-nilesh-shetty-quantum-mf/articleshow/66429944.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/cognizant-cuts-top-end-of-full-year-guidance/articleshow/66429719.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66429719.cms\" /></a>For the third-quarter, Cognizant reported revenue of $4.08 billion, up 8.3 per cent from a year ago.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "Cognizant cuts top-end of full year guidance",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Cognizant cuts top-end of full year guidance",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66429719",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/cognizant-cuts-top-end-of-full-year-guidance/articleshow/66429719.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66429719.cms\" /></a>For the third-quarter, Cognizant reported revenue of $4.08 billion, up 8.3 per cent from a year ago.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        10,
+        19,
+        16,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/earnings/cognizant-reports-8-rise-in-sept-quarter-revenue/articleshow/66429719.cms"
+        }
+      ],
+      "published": "2018-10-30T15:49:16+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/cognizant-reports-8-rise-in-sept-quarter-revenue/articleshow/66429719.cms",
+      "guidislink": false
+    },
+    {
+      "summary_detail": {
+        "value": "<a href=\"https://economictimes.indiatimes.com/markets/techm-q2-profit-jumps-27-to-rs-1064-crore-meets-street-estimates/articleshow/66429628.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66429628.cms\" /></a>The IT major had reported Rs 836.15 crore profit in the corresponding quarter last year.",
+        "type": "text/html",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title_detail": {
+        "value": "TechM Q2 profit jumps 27% to Rs 1,064 crore, meets Street estimates",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "TechM Q2 profit jumps 27% to Rs 1,064 crore, meets Street estimates",
+      "id": "https://economictimes.indiatimes.com/markets/rssfeeds/Article at EconomicTimes.com with article id : 66429628",
+      "summary": "<a href=\"https://economictimes.indiatimes.com/markets/techm-q2-profit-jumps-27-to-rs-1064-crore-meets-street-estimates/articleshow/66429628.cms\"><img width=\"100\" height=\"75\" border=\"0\" hspace=\"10\" align=\"left\" src=\"https://img.etimg.com/photo/66429628.cms\" /></a>The IT major had reported Rs 836.15 crore profit in the corresponding quarter last year.",
+      "published_parsed": [
+        2018,
+        10,
+        30,
+        10,
+        15,
+        14,
+        1,
+        303,
+        0
+      ],
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets/stocks/earnings/techm-q2-profit-jumps-27-to-rs-1064-crore-meets-street-estimates/articleshow/66429628.cms"
+        }
+      ],
+      "published": "2018-10-30T15:45:14+05:30",
+      "link": "https://economictimes.indiatimes.com/markets/stocks/earnings/techm-q2-profit-jumps-27-to-rs-1064-crore-meets-street-estimates/articleshow/66429628.cms",
+      "guidislink": false
+    }
+  ],
+  "feed": {
+    "language": "en-gb",
+    "updated": "2018-10-31T02:01:31+05:30",
+    "image": {
+      "links": [
+        {
+          "type": "text/html",
+          "rel": "alternate",
+          "href": "https://economictimes.indiatimes.com/markets"
+        }
+      ],
+      "href": "https://img.etimg.com/photo/39814569.cms",
+      "title_detail": {
+        "value": "Economic Times",
+        "type": "text/plain",
+        "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+        "language": "en"
+      },
+      "title": "Economic Times",
+      "link": "https://economictimes.indiatimes.com/markets"
+    },
+    "title": "Markets-Economic Times",
+    "rights": "Copyright:(C)2018 Bennett Coleman & Co. Ltd, http://info.indiatimes.com/terms/tou.html",
+    "updated_parsed": [
+      2018,
+      10,
+      30,
+      20,
+      31,
+      31,
+      1,
+      303,
+      0
+    ],
+    "rights_detail": {
+      "value": "Copyright:(C)2018 Bennett Coleman & Co. Ltd, http://info.indiatimes.com/terms/tou.html",
+      "type": "text/plain",
+      "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+      "language": "en"
+    },
+    "docs": "http://syndication.indiatimes.com/",
+    "title_detail": {
+      "value": "Markets-Economic Times",
+      "type": "text/plain",
+      "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+      "language": "en"
+    },
+    "subtitle_detail": {
+      "value": "Share Market Today | Share Market Live updates: Get all the Latest Share Market News and Updates on The Economic Times. Share Market Live Charts, News, Analysis, IPO News and more.",
+      "type": "text/html",
+      "base": "https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms",
+      "language": "en"
+    },
+    "links": [
+      {
+        "type": "text/html",
+        "rel": "alternate",
+        "href": "https://economictimes.indiatimes.com/markets"
+      },
+      {
+        "type": "application/rss+xml",
+        "rel": "self",
+        "href": "https://economictimes.indiatimes.com/rssfeeds/1977021501.cms"
+      }
+    ],
+    "link": "https://economictimes.indiatimes.com/markets",
+    "subtitle": "Share Market Today | Share Market Live updates: Get all the Latest Share Market News and Updates on The Economic Times. Share Market Live Charts, News, Analysis, IPO News and more."
+  },
+  "bozo": 0
+}
