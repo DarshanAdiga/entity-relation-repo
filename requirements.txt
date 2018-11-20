@@ -1,0 +1,5 @@
+feedparser==5.2.1
+requests==2.20.0
+beautifulsoup4==4.6.3
+elasticsearch==6.3.1
+pyyaml==3.13
