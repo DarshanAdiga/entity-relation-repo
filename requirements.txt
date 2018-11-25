@@ -3,3 +3,6 @@ requests==2.20.0
 beautifulsoup4==4.6.3
 elasticsearch==6.3.1
 pyyaml==3.13
+spacy==2.0.16
+#Manual installation of en_core_web_sm-2.0.0
+#https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz

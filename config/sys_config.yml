@@ -1,5 +1,6 @@
 # Configurations
 elastic:
   index: test123
+  doc_type: news
   host: localhost
   port: 9200
