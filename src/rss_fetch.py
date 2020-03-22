@@ -64,14 +64,14 @@ def extract_article_text(article_link):
         soup = BeautifulSoup(res.text, 'html.parser')
         #print(soup.prettify())
         #XPATH For the first article's text 
-        #/html/body/section[2]/div[6]/div/div/section/div[1]/article/div[5]
-        article_text = soup.find('body').find_all('section')[1] \
-        .find_all('article')[0] \
+        #Updated XPATH /html/body/section[1]/section[3]/div/div/div/section/div[1]/article
+        article_text = soup.find('body') \
+        .find_all('article', recursive=True)[0] \
         .find_all('div', class_='artText')[0].get_text()
 
         return article_text
     else:
-        return none
+        return None
 
 if __name__ == '__main__':
     item_list = get_feeds('https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms')
