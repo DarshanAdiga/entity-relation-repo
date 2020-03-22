@@ -1,440 +1,313 @@
-P Chidambaram,ORG
-ET Now,PRODUCT
-RBI,ORG
-at least two,CARDINAL
-RBI,PERSON
-RBI,PERSON
-RBI,PERSON
-9%,PERCENT
-a year,DATE
-March 2020,DATE
-RBI,PERSON
-one year,DATE
-a year,DATE
-CRAR,ORG
-RBI,PERSON
-CRAR,ORG
-one year,DATE
-RBI,PERSON
-RBI,PERSON
-Adi Godrej,ORG
-120-year,CARDINAL
-Godrej Group,ORG
-last year,DATE
-day,DATE
-the ET Lifetime Achievement award,PRODUCT
-Godrej Consumer Products,ORG
-Godrej Properties,ORG
-Kala Vijayraghavan,PERSON
-India,GPE
-the Godrej Group,ORG
-the Godrej Group,ORG
-India,GPE
-India,GPE
-Godrej,ORG
-Indian,NORP
-the next 10 years,DATE
-India,GPE
-the Godrej Group,ORG
-the years,DATE
-Godrej Group,ORG
-the years,DATE
-NEW DELHI,GPE
-Sensex,ORG
-Wednesday,DATE
-today,DATE
-afternoon,TIME
-Suruchi Kapoor of,ORG
-Edelweiss
-MGL,ORG
-Buy,PERSON
-Rs 915,FAC
-Rs,ORG
-834,CARDINAL
-BEML,ORG
-Rs 800,FAC
-Rs,ORG
-720,CARDINAL
-LIC Housing Finance,ORG
-Buy,PERSON
-Rs,GPE
-495,CARDINAL
-Rs 460,FAC
-Buy,PERSON
-Rs,GPE
-260,CARDINAL
-Rs 239,GPE
-Mindtree,PRODUCT
-Sell,PERSON
-Rs 765,GPE
-Rs 826,GPE
-NEW DELHI,GPE
-second,ORDINAL
-Wednesday,DATE
-The BSE Sensex,ORG
-around 340,CARDINAL
-0.95 per cent,MONEY
-35,135.80,CARDINAL
-NSE Nifty,GPE
-87,CARDINAL
-0.81 per cent,MONEY
-10,569,CARDINAL
-10.45 am,QUANTITY
-As many as 29,CARDINAL
-Nifty,GPE
-Infosys,ORG
-TCS,ORG
-Tech Mahindra,ORG
-Reliance Industries,ORG
-Power Grid,PRODUCT
-up to 4 per cent,MONEY
-YES Bank,ORG
-IOC,ORG
-HPCL,ORG
-between 2 per cent,MONEY
-five,CARDINAL
-Weak,ORG
-Asian,NORP
-overnight,TIME
-US,GPE
-Dow Jones,ORG
-nearly 950,CARDINAL
-the past two,DATE
-US,GPE
-US,GPE
-China,GPE
-next year,DATE
-Dow,ORG
-2.21 per cent,MONEY
-551.80,CARDINAL
-24,465.64,CARDINAL
-Asian,NORP
-Hang Seng,ORG
-Shanghai,GPE
-up to,CARDINAL
-morning,TIME
-ICRA,ORG
-April-June quarter,DATE
-current financial year,DATE
-July-September quarter,DATE
-7.2 per cent,MONEY
-8.2 per cent,MONEY
-the first quarter,DATE
-year-ago,DATE
-India,GPE
-October,DATE
-at least more than seven years,DATE
-October,DATE
-10.5,CARDINAL
-a year earlier,DATE
-21.02 million tonnes,QUANTITY
-Rs 753.17,GPE
-Rs 44.06,ORG
-Tuesday,DATE
-three-day,DATE
-Tuesday,DATE
-Bearish,NORP
-Mazhar Mohammad,PERSON
-Strategist for Technical Research & Trading Advisory,ORG
-Chartviewindia,GPE
-Tuesday,DATE
-Monday,DATE
-10,774,CARDINAL
-10,600,CARDINAL
-Arun Kumar,PERSON
-Market Strategist,ORG
-Reliance Securities,ORG
-Nir Kaissar,ORG
-Alan Greenspan,PERSON
-the Federal Reserve,ORG
-1987 to 2006,DATE
-last week,DATE
-The David Rubenstein Show: Peer-to-Peer Conversations,WORK_OF_ART
-Bloomberg TV,PERSON
-Greenspan,PERSON
-US,GPE
-US,GPE
-the 1970s,DATE
-early 1980s,DATE
-annual,DATE
-9.8 per cent,MONEY
-1980,DATE
-2.9,CARDINAL
-1972,DATE
-PCE,ORG
-Fed,ORG
-10.8 per cent,MONEY
-1982,DATE
-3.5 per cent,MONEY
-1969,DATE
-the Bureau of Labor Statistics,ORG
-Generation X,NORP
-Annual,DATE
-3 per cent,MONEY
-1993,DATE
-1.8 per cent,MONEY
-3.7 per cent,MONEY
-1969,DATE
-annual,DATE
-10-year,CARDINAL
-Treasuries,GPE
-0.76,CARDINAL
-1959,DATE
-the first year,DATE
-CPE,ORG
-two,CARDINAL
-two,CARDINAL
-the last six decades,DATE
-two,CARDINAL
-one-year,DATE
-three-year,DATE
-five-year,DATE
-oneyear,DATE
--0.06,CARDINAL
-three-year,DATE
--0.04,CARDINAL
--0.02,CARDINAL
-10-year,CARDINAL
-0.12,CARDINAL
-one-year,DATE
-three-year,DATE
--0.26,QUANTITY
-five-year,DATE
-1973 to 1982,DATE
-0.2 per cent,MONEY
-one-year,DATE
-0.4 per cent,MONEY
-annually,DATE
-three years,DATE
-0.4 per cent,MONEY
-annually,DATE
-five years,DATE
-1973-1974,DATE
-Real,ORG
-one-year,DATE
-three-year,DATE
-five-year,DATE
--0.53,CARDINAL
-companies’,ORG
-1973 to 1982,DATE
-negative 2.3 per cent,MONEY
-one-year,DATE
-2.6 per cent,MONEY
-annually,DATE
-three years,DATE
-1.9 per cent,MONEY
-annually,DATE
-five years,DATE
-the 1970s,DATE
-one,CARDINAL
-NEW DELHI,GPE
-YES Bank,ORG
-over 2.07,CARDINAL
-NSE,ORG
-Wednesday,DATE
-Suzlon Energy,ORG
-1.59,CARDINAL
-Reliance Communications,ORG
-1.54,CARDINAL
-JP Associates,ORG
-0.81,CARDINAL
-Indian Oil Corp,ORG
-0.80,CARDINAL
-Vodafone Idea,PERSON
-0.66,CARDINAL
-Adani Power,PERSON
-0.64,CARDINAL
-0.61,CARDINAL
-Jet Airways,ORG
-0.59,CARDINAL
-South Indian Bank,NORP
-0.54,CARDINAL
-NSE,ORG
-Reddy,PERSON
-574.20,CARDINAL
-YES Bank (Rs,ORG
-409.06,CARDINAL
-Infosys,ORG
-287.73,CARDINAL
-RIL (Rs 212.65,ORG
-Indiabulls Housing Finance,ORG
-205.99,CARDINAL
-TCS,ORG
-Jet Airways,ORG
-189.48,CARDINAL
-ICICI Bank,ORG
-185.42,CARDINAL
-153.77,CARDINAL
-Tata Steel,ORG
-Rs,GPE
-140.31,CARDINAL
-67.45,CARDINAL
-10,588.75,CARDINAL
-BSE Sensex,ORG
-279.06,CARDINAL
-35,195.45 around 10:20 am on,TIME
-Wednesday,DATE
-Nifty,GPE
-Reddy,PERSON
-6.50 per cent,MONEY
-YES Bank,ORG
-3.23 per cent,MONEY
-Bharat Petroleum Corporation,ORG
-2.82 per cent,MONEY
-Indian Oil Corporation,ORG
-2.70 per cent,MONEY
-Hindustan Petroleum Corporation,ORG
-2.18,CARDINAL
-Infosys,ORG
-3.80 per cent,MONEY
-Tata Consultancy Services,ORG
-3.55,CARDINAL
-Tech Mahindra,PERSON
-3.33 per cent,MONEY
-HCL Technologies,ORG
-2.67 per cent,MONEY
-Power Grid Corporation,ORG
-India,GPE
-1.88 per cent,MONEY
-Nifty,GPE
-NEW DELHI,GPE
-Jaypee Infratech,PERSON
-5 per cent,MONEY
-Wednesday,DATE
-five,CARDINAL
-NBCC,ORG
-Kotak Investment,PERSON
-L&T Infrastructure,ORG
-Singapore,GPE
-Cube Highways,PERSON
-5 per cent,MONEY
-Rs 3.19,GPE
-BSE,ORG
-October 25,DATE
-November 9,DATE
-Anuj Jain,PERSON
-NCLT,ORG
-Rs,ORG
-7,000,CARDINAL
-Suraksha,ORG
-Rajesh Kumar Singh,PERSON
-Debjit ChakrabortyIndia’s,GPE
-GAIL India Ltd.,ORG
-775 megawatts,QUANTITY
-IL&FS Energy Development Co.,ORG
-Infrastructure Leasing & Financial Services Ltd.,ORG
-129 megawatts,QUANTITY
-IL&FS,ORG
-India,GPE
-IL&FS,ORG
-GAIL,ORG
-GAIL,PERSON
-32.4 billion,CARDINAL
-$451 million,MONEY
-March 31,DATE
-Bloomberg,PERSON
-IL&FS,ORG
-about 2 percent,PERCENT
-IL&FS,ORG
-the end of last month,DATE
-last month,DATE
-hour,TIME
-4,800-mw,CARDINAL
-Last year,DATE
-winter,DATE
-4511-mw,CARDINAL
-BSES Rajdhani Power Ltd,FAC
-BRPL,ORG
-BSES Yamuna Power Ltd,ORG
-1888-mw,CARDINAL
-1136-mw,ORG
-last winter,DATE
-This year,DATE
-1225-mw for,ORG
-BRPL,ORG
-BYPL,ORG
-summer months,DATE
-the winter months,DATE
-the summer months,DATE
-BRPL,ORG
-between 300-400,MONEY
-Himachal Pradesh,PERSON
-Meghalaya,GPE
-Manipur,GPE
-J&K. BYPL,ORG
-Himachal Pradesh,PERSON
-the summer-months,DATE
-Delhi,GPE
-winters,DATE
-Peak,PERSON
-Winters)
-Delhi,ORG
-Expected),ORG
-2017-2018,ORG
-2016-2017,ORG
-2015-2016,ORG
-MUMBAI,ORG
-The Reserve Bank of India,ORG
-RBI,ORG
-a marathon 10 hours,TIME
-Monday,DATE
-the Prompt Corrective Action,ORG
-RBI’s Board for Financial Supervision,ORG
-Banks,ORG
-Basel,GPE
-Monday,DATE
-18,CARDINAL
-Tata Sons,ORG
-N Chandrasekaran,ORG
-Subhash Chandra Garg,ORG
-RBI,ORG
-two,CARDINAL
-RBI,ORG
-December 14,DATE
-PCA,ORG
-Infrastructure Leasing & Financial Services Ltd,ORG
-RBI,ORG
-the Economic Capital Framework,ORG
-ECF,ORG
-the Government of India,ORG
-RBI,PERSON
-RBI,ORG
-Rs,GPE
-250 million,CARDINAL
-RBI,ORG
-the past few months,DATE
-Centre,ORG
-Section 7 of the RBI Act,LAW
-RBI,ORG
-Section,ORG
-RBI,ORG
-Monday,DATE
-Section 7,LAW
-Basel,GPE
-Saugata Bhattacharya,PERSON
-Axis Bank,ORG
-RBI,ORG
-CRAR,ORG
-9%,PERCENT
-0.625%,PERCENT
-the Capital Conservation Buffer,LAW
-CCB,ORG
-one year,DATE
-PCA,ORG
-the Board for Financial Supervision,ORG
-BFS,ORG
-RBI,ORG
-2020,DATE
-Arun Jaitley,PERSON
+JAIPUR,ORG
+Mar 22,DATE
+PTI,ORG
+Petrol,PERSON
+Rajasthan,GPE
+Sunday,DATE
+VAT,ORG
+late-night,TIME
 Saturday,DATE
-the Economic Times Awards,ORG
-Jaitley,PERSON
-2008,DATE
-RBI,PERSON
-6 months or one year,DATE
-two,CARDINAL
-RBI,ORG
+VAT,ORG
+30 per cent,MONEY
+34,CARDINAL
+22,CARDINAL
+26,CARDINAL
+Jaipur,GPE
+75.57,CARDINAL
+69.26,CARDINAL
+July last year,DATE
+VAT,ORG
+4 per cent,MONEY
+March 13,DATE
+Suneet Bagai,PERSON
+VAT,ORG
+Bagai,WORK_OF_ART
+Congress,ORG
+July,DATE
+last year,DATE
+Raje,PERSON
+VAT,ORG
+4 per cent,MONEY
+VAT,ORG
+30 per cent,MONEY
+26,CARDINAL
+VAT,ORG
+22 per cent,MONEY
+18,CARDINAL
+July 6,DATE
+VAT,ORG
+26 per cent,MONEY
+30 per cent,MONEY
+18,CARDINAL
+22,CARDINAL
+12 per cent,MONEY
+the seventh straight day,DATE
+6,687.75,CARDINAL
+11.76 per cent,MONEY
+50,171.26,CARDINAL
+September 2017,DATE
+third,ORDINAL
 February,DATE
-October,DATE
-Acharya,PERSON
-RBI,PERSON
+as much as 40,CARDINAL
+14,152.5,CARDINAL
+22 per cent,MONEY
+69.59,MONEY
+Delhi,GPE
+Rs 62.29,FAC
+the seventh day in a row,DATE
+two,CARDINAL
+March 13,DATE
+Rs 39,000,FAC
+2002,DATE
+Indian Oil Corp,ORG
+IOC,ORG
+Bharat Petroleum Corp Ltd,ORG
+BPCL,ORG
+Hindustan Petroleum Corp Ltd,ORG
+1st and 16th of every month,DATE
+November 2012,DATE
+1st of every month,DATE
+Saturday,DATE
+daily,DATE
+March 16,DATE
+50.17,CARDINAL
+Saudi Aramco,ORG
+India,GPE
+Reliance Industries',ORG
+USD 75 billion,CARDINAL
+annual,DATE
+Aramco,ORG
+annually,DATE
+83 per cent,MONEY
+Saudi Arabia,GPE
+second,ORDINAL
+close to a fifth,CARDINAL
+India,GPE
+Saudi Aramco,LOC
+China,GPE
+India,GPE
+Southeast Asia,LOC
+the United States,GPE
+Japan,GPE
+South Korea,GPE
+annual,DATE
+Saudi Aramco,ORG
+Arabian,NORP
+Saudi,NORP
+China,GPE
+India,GPE
+Southeast Asia,LOC
+Saudi Aramco's,LOC
+Indian Oil Corp,ORG
+IOC,ORG
+28,000,CARDINAL
+a good two weeks,DATE
+April 1,DATE
+BS-VI,ORG
+IOC,ORG
+Sanjiv Singh,PERSON
+28,000,CARDINAL
+BS-VI,ORG
+more than a week,DATE
+Bharat Petroleum Corp Ltd,ORG
+BPCL,ORG
+Hindustan Petroleum Corp Ltd,ORG
+BS-VI,ORG
+this week,DATE
+April 1,DATE
+Euro-VI,ORG
+India,GPE
+10,CARDINAL
+million,CARDINAL
+one,CARDINAL
+BS-IV,ORG
+Euro-VI,ORG
+BS-VI,ORG
+just three years,DATE
+IOC,ORG
+roughly half,CARDINAL
+BS-VI,ORG
+Euro-VI,ORG
+the end of 2019,DATE
+Euro,ORG
+Bharat Stage-III,ORG
+350,CARDINAL
+2010,DATE
+seven years,DATE
+BS-IV,ORG
+50,CARDINAL
+BS-IV,ORG
+BS-VI,ORG
+just three years,DATE
+BS-VI,ORG
+first,ORDINAL
+BS-VI,ORG
+4 to 6 years,DATE
+first,ORDINAL
+BS-VI,ORG
+Rs 35,000,PRODUCT
+60,000,CARDINAL
+just 10,CARDINAL
+Delhi,GPE
+BS-VI,ORG
+April 2019,DATE
+April 2020,DATE
+BS-VI,ORG
+Delhi,GPE
+April 1, 2018,DATE
+BS-VI,ORG
+four,CARDINAL
+Rajasthan,GPE
+eight,CARDINAL
+Uttar Pradesh,ORG
+the National Capital Region,FAC
+NCR,ORG
+April 1, 2019,DATE
+Agra,GPE
+seven,CARDINAL
+Haryana,GPE
+October 1, 2019,DATE
+BS-VI,ORG
+25 per cent,MONEY
+70,CARDINAL
+the early 1990s,DATE
+1994,DATE
+Delhi,GPE
+Mumbai,GPE
+Kolkata,GPE
+Chennai,GPE
+February 1, 2000,DATE
+April 2000,DATE
+BS-II,PRODUCT
+Delhi,GPE
+2000,DATE
+2001,DATE
+5 per cent,MONEY
+2000,DATE
+1 per cent,MONEY
+February 1, 2000,DATE
+RON,ORG
+88,CARDINAL
+91,CARDINAL
+Particulate Matter,ORG
+New Delhi,GPE
+Indian Oil Corp,ORG
+IOC,ORG
+IOC,ORG
+Sanjiv Singh,PERSON
+alternate days,DATE
+Indian,NORP
+Singh,PERSON
+24x7,CARDINAL
+BS-VI,ORG
+Euro-VI,ORG
+April 1,DATE
+Indian Oil Tanking Ltd,ORG
+Chennai Petroleum Corp Ltd,ORG
+IOC,ORG
+IndianOil,ORG
+IndianOil,ORG
+IOC,ORG
+Indane,MONEY
+Ballarpur Industries Limited,ORG
+KSK Mahanadi Power,ORG
+two,CARDINAL
+Sumit Binani,ORG
+KSK Mahanadi Power,ORG
+Jain,PERSON
+Binani,PERSON
+CoC,ORG
+NCLT,ORG
+CoC,ORG
+IDBI Bank,ORG
+2000,CARDINAL
+KSK Mahanadi Power,PERSON
+15,000,CARDINAL
+New Delhi,GPE
+India,GPE
+NTPC,PERSON
+Friday,DATE
+Units,ORG
+Glgovernment,ORG
+the last 14 day,DATE
+the State Health Authorities,ORG
+NTPC Townships,ORG
+Protective Personal Equipment,ORG
+PPE,ORG
+NTPC,ORG
+NTPC,ORG
+58,156,CARDINAL
+55,CARDINAL
+24,CARDINAL
+Hydro,ORG
+1 Wind,QUANTITY
+11,CARDINAL
+PV,ORG
+10,CARDINAL
+Joint Venture,ORG
+14 per cent,MONEY
+68,550,CARDINAL
+calendar year 2019,DATE
+Parliament,ORG
+Thursday,DATE
+2018,DATE
+RE,ORG
+Rs 79,606,PRODUCT
+the Lok Sabha,PERSON
+68,550,CARDINAL
+2019,DATE
+2015,DATE
+72,972,CARDINAL
+1,00,982,CARDINAL
+2016,DATE
+81,080,CARDINAL
+2017,DATE
+79,606,CARDINAL
+2018,DATE
+175,CARDINAL
+2022,CARDINAL
+86.75,CARDINAL
+GW,ORG
+February 2020,DATE
+88.25,CARDINAL
+GW,ORG
+Rs 4,21,861,FAC
+Ministry of New & Renewable Energy,ORG
+MNRE,ORG
+annual,DATE
+India,GPE
+10-11,CARDINAL
+the first two weeks of March,DATE
+19.5 million tonnes,QUANTITY
+March 2019,DATE
+two,CARDINAL
+the month,DATE
+as much as 10 million tonnes,MONEY
+first,ORDINAL
+March 2019,DATE
+10-11,CARDINAL
+the first fortnight of March 2020,DATE
+Indian Oil Corp,ORG
+IOC,ORG
+over 13 per cent,MONEY
+10 per cent,MONEY
+2 per cent,MONEY
+10 per cent,MONEY
+approximately 10 per cent,MONEY
+IOC,WORK_OF_ART
+the next two-three months,DATE
+India,GPE
+fiscal 2021,DATE
+Tata Power,ORG
+Thursday,DATE
+90,CARDINAL
+Tata Power,ORG
+India,GPE
+Tata Power,ORG
+90,CARDINAL
+BSE,ORG
+pan-India,ORG
+September 2018,DATE
+4.97 per cent,MONEY
+33.45,CARDINAL
+BSE,ORG

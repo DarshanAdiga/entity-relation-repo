@@ -16,7 +16,7 @@ for ar in articel_list:
     res_csv.extend([ent.text.strip() + ',' + ent.label_ for ent in ents])
 
 # Save to file
-with open('/home/darshan/work/ML/stock-market/entity-relation-repo/data/sample_entities.csv', 'w') as ot:
+with open('./data/sample_entities.csv', 'w') as ot:
     for r in res_csv:
         #print(r, ':', len(r))
         ot.write(r + "\n")
