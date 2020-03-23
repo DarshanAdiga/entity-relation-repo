@@ -1,8 +1,7 @@
-BENGALURU,ORG
+token,label
 2.61,CARDINAL
 Rs 2.50,PRODUCT
 February,DATE
-Vena Energy,ORG
 Juniper Energy,ORG
 Tata Power,ORG
 40MW,CARDINAL
@@ -26,57 +25,53 @@ last month,DATE
 2.50,CARDINAL
 Jyoti Gulia,PERSON
 JMK Research,ORG
-2.65,CARDINAL
+Rs 2.65,FAC
 ET,ORG
-GUVNL,ORG
 500MW,PRODUCT
 May 2019,DATE
 2.65,CARDINAL
 the Power Grid Corporation of India Ltd,ORG
-₹10,000,CARDINAL
+"₹10,000",CARDINAL
 ET,ORG
 this year,DATE
-between ₹15,000 and ₹20,000,MONEY
+"between ₹15,000 and ₹20,000",MONEY
 every year,DATE
 years,DATE
 20-25 years,DATE
-The Securities and Exchange Board of India,ORG
+India,GPE
 Indian,NORP
 GAIL,ORG
-ACME Solar,ORG
+ACME Solar,PRODUCT
 four,CARDINAL
 Gas Authority of India,ORG
 ACME Solar,ORG
 ACME,ORG
-GAIL’s,ORG
+GAIL,ORG
 49-74%,PERCENT
 ACME Solar,ORG
 SPV,ORG
-GAIL,ORG
 India,GPE
 GAIL,ORG
 ACME Solar,ORG
-ACME Solar’s,ORG
 5.8,CARDINAL
 over $1.6 billion,MONEY
-GAIL,ORG
 BHEL,ORG
-IL&FS’s,ORG
-ACME Solar,ORG
+IL&FS,ORG
 pan-India,ORG
 twelve,CARDINAL
 Indian,NORP
 nearly 3,CARDINAL
 25 years,DATE
 2.8,CARDINAL
+Rs,GPE
 800,CARDINAL
-ACME Solar,ORG
+ACME Solar,FAC
 IPO,ORG
 a few years,DATE
 National Thermal Power Corporation,ORG
 Adani,ORG
 Avantha’s,ORG
-Madhya Pradesh,GPE
+Madhya,GPE
 National Hydroelectric Power Corporation,ORG
 Lanco,GPE
 last year,DATE
@@ -90,6 +85,7 @@ Uttar Pradesh,ORG
 Andhra Pradesh,ORG
 Haryana,ORG
 Tamil Nadu,PERSON
+Dadri,PERSON
 the National Capital Region,FAC
 Damodar Valley Corporation’s,ORG
 Chandrapura,PERSON
@@ -109,13 +105,12 @@ Section 5 of Environment (Protection) Act,LAW
 26.02.2020,CARDINAL
 11,CARDINAL
 four,CARDINAL
-The Central Electricity Authority,ORG
 CEA,ORG
 CPCB,ORG
-December 7, 2015,DATE
+"December 7, 2015",DATE
 Flue Gas De-Sulphurisation,ORG
-161,402 mw,QUANTITY
-64,425,CARDINAL
+"161,402 mw",QUANTITY
+"64,425",CARDINAL
 2022,DATE
 CEA,ORG
 CPCB,ORG
@@ -153,7 +148,6 @@ Convertible Redeemable Preference Shares,WORK_OF_ART
 June 2017,DATE
 Rs 558,FAC
 Rs 833,FAC
-JSL,ORG
 Debentures,PERSON
 400,CARDINAL
 Kotak Special Situations Fund,ORG
@@ -172,8 +166,7 @@ Shubhajyoti Chattopadhyay,PERSON
 SBI Officers Association,ORG
 March 20,DATE
 State Bank of India,ORG
-Measures,PERSON
-days,DATE
+Preventive Measures',ORG
 March 21 to April 4,DATE
 50 per cent,MONEY
 50 per cent,MONEY
@@ -187,7 +180,6 @@ Ranjan Kumar Mishra,PERSON
 the next few weeks,DATE
 PTI,ORG
 Mishra,ORG
-Sanjay Das,PERSON
 the All India Bank Officers Confederation,ORG
 Jagdeep Dhankhar,PERSON
 hours,TIME
@@ -197,14 +189,20 @@ Indians,NORP
 PRIVATE & DEPOSIT-HEAVY,ORG
 just 14%,PERCENT
 PSB,ORG
-70%,PERCENT
+over 70%,PERCENT
 nearly 50%,PERCENT
+"Agencies
+
+BANKING ON URBAN INDIA",ORG
 40%,PERCENT
 65%,PERCENT
+"Agencies
+
+
+Agencies",ORG
 MUMBAI,DATE
 the Reserve Bank,ORG
-Bank,ORG
-Punjab,ORG
+Punjab,PERSON
 Maharashtra Co-operative,PERSON
 PMC,ORG
 the Reserve Bank,ORG
@@ -212,25 +210,24 @@ the Reserve Bank,ORG
 Saturday,DATE
 the Reserve Bank of India,ORG
 another three months,DATE
-Directions,ORG
+Directions,PRODUCT
 three months,DATE
 RBI,ORG
 RBI,ORG
-September 23, 2019,DATE
-RBI,ORG
+"September 23, 2019",DATE
 days,DATE
 a few days,DATE
 earlier in the month,DATE
-Reserve Bank,ORG
+Administrator,ORG
 the Advisory Committee,ORG
 The Reserve Bank,ORG
 Mumbai,GPE
 2.5,CARDINAL
-55,000,CARDINAL
-March 31, 2020,DATE
+"55,000",CARDINAL
+"March 31, 2020",DATE
 17,CARDINAL
-Rs 50,500,PRODUCT
-March 21, 2020,DATE
+"50,500",CARDINAL
+"March 21, 2020",DATE
 the Life Insurance Corporation,ORG
 2.5,CARDINAL
 March-end,DATE
@@ -238,14 +235,14 @@ the previous fiscal,DATE
 March,DATE
 an important month,DATE
 1.15,CARDINAL
-60,000,CARDINAL
+"60,000",CARDINAL
 the beginning of the year,DATE
 February 2020,DATE
 12.85 per cent,MONEY
 first-year,DATE
 21.84 per cent,MONEY
 the Reserve Bank of India,ORG
-over 10,000,CARDINAL
+"over 10,000",CARDINAL
 Business Standard,ORG
 about 150,CARDINAL
 RBI,ORG
@@ -254,12 +251,10 @@ March 19,DATE
 Mint,ORG
 first,ORDINAL
 treasury,ORG
-nearly 14,000,CARDINAL
-BS,ORG
+"nearly 14,000",CARDINAL
 two,CARDINAL
 one,CARDINAL
 the Business Standard,ORG
-India,GPE
 Friday,DATE
 just days,DATE
 Mint Road’s,ORG
@@ -270,12 +265,12 @@ RBI,ORG
 2.5,CARDINAL
 Friday,DATE
 RBI,ORG
-30,000,CARDINAL
+"30,000",CARDINAL
 two,CARDINAL
 Just three days earlier,DATE
 first,ORDINAL
 the last two months,DATE
-10,000,CARDINAL
+"10,000",CARDINAL
 first,ORDINAL
 next Tuesday,DATE
 four,CARDINAL
@@ -284,8 +279,9 @@ five,CARDINAL
 six and nine years,DATE
 RBI,ORG
 OMOs,PERSON
-30,000,CARDINAL
+"30,000",CARDINAL
 two,CARDINAL
+OMOs,PERSON
 February bi-month,DATE
 RBI,ORG
 first,ORDINAL
