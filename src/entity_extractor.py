@@ -10,10 +10,13 @@ articel_list = esh.search('{"query":{"bool":{"must":[{"match_all":{}}],"must_not
 
 res_csv = []
 for ar in articel_list:
-    parsed = sp_core_nlp(ar['text'])
-    ents = [ent for ent in parsed.ents ]
-    ents = [ent for ent in ents if (len(ent.text.strip()) > 1 and ent.text.strip() !='\n')]
-    res_csv.extend([ent.text.strip() + ',' + ent.label_ for ent in ents])
+    parsed_article = sp_core_nlp(ar['text'])
+    for i,sent in enumerate(parsed_article.sents):
+        #print(i,':',sent.text)
+        parsed_sent = sp_core_nlp(sent.text)
+        ents = [ent for ent in parsed_sent.ents ]
+        ents = [ent for ent in ents if (len(ent.text.strip()) > 1 and ent.text.strip() !='\n')]
+        res_csv.extend([ent.text.strip() + ',' + ent.label_ for ent in ents])
 
 # Save to file
 with open('./data/sample_entities.csv', 'w') as ot:
