@@ -7,7 +7,7 @@ elastic_conf = conf_parser.SYS_CONFIG['elastic']
 #print('Read config:', conf_parser.SYS_CONFIG)
 
 class ESHelper():
-    def __init__(self, rss_url_file):
+    def __init__(self, rss_url_file='data/rss-urls.txt'):
         # Initialize the connection
         self.es = self._init_es()
         self.rss_url_file = rss_url_file

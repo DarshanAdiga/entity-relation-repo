@@ -4,46 +4,84 @@ from spacy.pipeline import DependencyParser
 from indexer import ESHelper
 import csv
 
-sp_core_nlp = en_core_web_sm.load()
+class SentenceParser():
+    def __init__(self):
+        self.sp_core_nlp = en_core_web_sm.load()
 
-esh = ESHelper(rss_url_file='data/rss-urls.txt')
-articel_list = esh.search('{"query":{"bool":{"must":[{"match_all":{}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}')
-#print(articel_list)
+    def fetch_from_es(self):
+        """
+        Fetch the articles from ES
+        """
+        es_helper = ESHelper()
+        article_list = es_helper.search('{"query":{"bool":{"must":[{"match_all":{}}],"must_not":[],"should":[]}},"from":0,"size":10,"sort":[],"aggs":{}}')
+        return article_list
 
-# Save entities
-ent_file = './data/sample_entities.csv'
-ent_file = open(ent_file, 'w')
-ent_writer = csv.DictWriter(ent_file, fieldnames=['token', 'label'])
-ent_writer.writeheader()
-
-# Save dependencies
-dep_file = './data/sample_dependencies.csv'
-dep_file = open(dep_file, 'w')
-dep_writer = csv.DictWriter(dep_file, fieldnames=['token', 'dep'])
-dep_writer.writeheader()
-
-def write_deps(parsed_sent, dep_writer):
-    for dp in parsed_sent:
-        if (len(dp.text.strip()) > 1 and dp.text.strip() !='\n'):
-            row = {}
-            row['token'] = dp.text
-            row['dep'] = dp.dep_ 
-            dep_writer.writerow(row)
-
-def write_ents(parsed_sent, ent_writer):
-    for ent in parsed_sent.ents:
-        if (len(ent.text.strip()) > 1 and ent.text.strip() !='\n'):
-            row = {}
-            row['token'] = ent.text.strip()
-            row['label'] = ent.label_
-            ent_writer.writerow(row)
+    def sentence_tokenizer_and_parser(self, article_list):
+        """
+        Tokenize each article into parsed sentences
         
-for ar in articel_list:
-    parsed_article = sp_core_nlp(ar['text'])
-    for i,sent in enumerate(parsed_article.sents):
-        #print(i,':',sent.text)
-        #parsed_sent = sp_core_nlp(sent.text)
-        write_deps(sent, dep_writer)
-        write_ents(sent, ent_writer)
+        Arguments:
+            article_list {List} -- List of plain texts
+        """
+        sentences = []
+        for article in article_list:
+            article_text = article['text']
+            parsed_article = self.sp_core_nlp(article_text)
+            sentences.extend(parsed_article.sents)
+        print('Tokenized {} sentences'.format(len(sentences)))
+        return sentences
+ 
+    def get_entities(self, parsed_sentence):
+        """ Produces list of dicts from the parsed sentence, each dict containing
+        the entities in a sentence.
+        
+        Arguments:
+            parsed_sentence {Span} -- Parsed sentence
+        """
+        entities = []
+        for ent in parsed_sentence.ents:
+            # Filter the empty tokens
+            if (len(ent.text.strip()) > 1 and ent.text.strip() !='\n'):
+                row = {}
+                row['token'] = ent.text.strip()
+                row['label'] = ent.label_
+                entities.append(row)
+        return entities
+        
+    def get_relations(self, parsed_sentence):
+        """ Produces list of dicts from the parsed sentence, each dict containing
+        the relationships in a sentence.
+        
+        Arguments:
+            parsed_sentence {Span} -- Parsed sentence
+        """
+        relations = []
+        for dp in parsed_sentence:
+            # Filter the empty tokens
+            if (len(dp.text.strip()) > 1 and dp.text.strip() !='\n'):
+                row = {}
+                row['token'] = dp.text
+                row['dep'] = dp.dep_
+                relations.append(row)
+        return relations
 
-print('Saved entities and dependencies to file')
+    def parse(self):
+        article_list = self.fetch_from_es()
+        parsed_sentences = self.sentence_tokenizer_and_parser(article_list)
+        ent_list = []
+        rel_list = []
+        # For each parsed sentence
+        for p_sentence in parsed_sentences:
+            entities = self.get_entities(p_sentence)
+            relations = self.get_relations(p_sentence)
+
+            ent_list.extend(entities)
+            rel_list.extend(relations)
+        # TODO Save the parsed entities and relations
+        print(ent_list)
+        print()
+        print(rel_list)
+
+if __name__ == "__main__":
+    sp = SentenceParser()
+    sp.parse()
