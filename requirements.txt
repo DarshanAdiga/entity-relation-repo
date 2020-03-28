@@ -2,7 +2,7 @@ feedparser==5.2.1
 requests==2.20.0
 beautifulsoup4==4.6.3
 elasticsearch==6.3.1
-pyyaml==3.13
+pyyaml==5.1
 spacy==2.0.16
 #Manual installation of en_core_web_sm-2.0.0
 #pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz
