@@ -3,3 +3,4 @@ __pycache__
 *.html
 venv/
 *.pyc
+src/util/.ipynb_checkpoints

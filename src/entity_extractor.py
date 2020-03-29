@@ -30,6 +30,8 @@ class SentenceParser():
             article_text = article['text']
             parsed_article = self.sp_core_nlp(article_text)
             sentences.extend(parsed_article.sents)
+
+        # TODO Clean the sentences and create a new list of parsed sentences
         print('Tokenized {} sentences'.format(len(sentences)))
         return sentences
  
@@ -67,27 +69,31 @@ class SentenceParser():
                 relations.append(row)
         return relations
 
-    def parse(self):
+    def parse(self, result_file_path):
+        """
+        Parses the article texts from ES and identifies the entities and relationships
+        
+        Arguments:
+            result_file_path {str} -- Destination file path where the parsed result will be save as json lines
+        """
         article_list = self.fetch_from_es()
         parsed_sentences = self.sentence_tokenizer_and_parser(article_list)
-        # ent_list = []
-        # rel_list = []
 
-        # TODO Save the parsed entities and relations
-        
+        # The result json line file
+        f_write = open(result_file_path, 'w')
         # For each parsed sentence
         for p_sentence in parsed_sentences:
-            # entities = self.get_all_entities(p_sentence)
-            # relations = self.get_all_relations(p_sentence)
-            # ent_list.extend(entities)
-            # rel_list.extend(relations)
+            entities = self.get_all_entities(p_sentence)
+            relations = self.get_all_relations(p_sentence)
             rel_dict = self.get_merged_relations(p_sentence)
-            rel_dict['text'] = p_sentence.text
-            print(json.dumps(rel_dict))
+            if rel_dict is not None:
+                rel_dict['text'] = p_sentence.text
+                rel_dict['entities'] = json.dumps(entities)
+                rel_dict['relations'] = json.dumps(relations)
+                f_write.write(json.dumps(rel_dict) + '\n')
         
-        # print(ent_list)
-        # print()
-        # print(rel_list)
+        f_write.close()
+        print('Saved the parsed results at {}'.format(result_file_path))
 
     def get_merged_relations(self, parsed_sentence):
         """
@@ -142,8 +148,11 @@ class SentenceParser():
                 prev_tok_text = token.text
 
         # Return the parsed texts
-        return {'subject': sub_token_text, 'object': obj_token_text}
+        if sub_token_text == '' and obj_token_text == '':
+            return None
+        else: 
+            return {'subject': sub_token_text, 'object': obj_token_text}
 
 if __name__ == "__main__":
     sp = SentenceParser()
-    sp.parse()
+    sp.parse('data/parsed_data.jl')

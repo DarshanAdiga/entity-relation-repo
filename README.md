@@ -1,6 +1,6 @@
 # Entity Relationship Management
 
-A work-in-progress project aimed at building a entity-relationship builder system using natural language processing techniques and machine learning algorithms
+A work-in-progress project aimed at building a entity-relationship builder system using NLP
 
 
 
@@ -29,6 +29,8 @@ Index the newly available news articles into elasticsearch
 Tokenize and parse the sentences, identify the different entities and relationships
 
 *TODO*: 
+  - Clean the sentences
+  - Detect active and passive voices before finding the relationships
   - Infer the pronouns in the sequence of sentences and replace pronouns with the actual subjects/objects
 
 

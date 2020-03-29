@@ -26,16 +26,17 @@ def get_feeds(rss_url, verbose=False):
     item_json_list = []
     for item in feed.entries:
         article_text = extract_article_text(item.link)
-        i_json = json.loads('{}')
-        i_json['id'] = find_article_id(item)
-        i_json['title'] = item.title
-        i_json['url'] = item.link
-        i_json['text'] = article_text
-        i_json['published'] = item.published
-        if verbose:
-            print(json.dumps(i_json)) 
-            print('------------------------------------')
-        item_json_list.append(i_json)
+        if article_text is not None:
+            i_json = json.loads('{}')
+            i_json['id'] = find_article_id(item)
+            i_json['title'] = item.title
+            i_json['url'] = item.link
+            i_json['text'] = article_text
+            i_json['published'] = item.published
+            if verbose:
+                print(json.dumps(i_json)) 
+                print('------------------------------------')
+            item_json_list.append(i_json)
     
     return item_json_list
         
@@ -65,11 +66,13 @@ def extract_article_text(article_link):
         #print(soup.prettify())
         #XPATH For the first article's text 
         #Updated XPATH /html/body/section[1]/section[3]/div/div/div/section/div[1]/article
-        article_text = soup.find('body') \
-        .find_all('article', recursive=True)[0] \
-        .find_all('div', class_='artText')[0].get_text()
-
-        return article_text
+        soup_body = soup.find('body')
+        if soup_body is None:
+            return None
+        else:
+            article_text =  soup_body.find_all('article', recursive=True)[0] \
+            .find_all('div', class_='artText')[0].get_text()
+            return article_text
     else:
         return None
 
