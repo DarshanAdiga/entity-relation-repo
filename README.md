@@ -31,6 +31,10 @@ Tokenize and parse the sentences, identify the different entities and relationsh
 *TODO*: 
   - Clean the sentences
   - Detect active and passive voices before finding the relationships
+  - Improvise the subject and object detection
   - Infer the pronouns in the sequence of sentences and replace pronouns with the actual subjects/objects
 
 
+## References
+- https://realpython.com/natural-language-processing-spacy-python/#dependency-parsing-using-spacy
+- 

@@ -1,4 +1,5 @@
 import spacy
+import textacy
 import en_core_web_sm
 from spacy.pipeline import DependencyParser
 from indexer import ESHelper
@@ -69,6 +70,31 @@ class SentenceParser():
                 relations.append(row)
         return relations
 
+    def get_sub_verb_obj_triplets(self, p_sentence, row_dict):
+        """
+        Returns zero or more number of triplets each containing 
+        (subject,verb,object) in the p_sentence.
+        This method uses textacy(https://chartbeat-labs.github.io/textacy/build/html/index.html)
+        
+        Arguments:
+            p_sentence {Doc} -- Parsed sentence
+            row_dict {dict} -- result dictionary
+        
+        Returns:
+            [dict] -- Dictionary with different parsed components of the sentence
+        """
+        itr = textacy.extract.subject_verb_object_triples(p_sentence)
+        if itr is not None:
+            svo = [val for val in itr]
+            for i,item in enumerate(svo):
+                i = str(i)
+                s,v,o = item
+                row_dict[i + '_sub'] = s.text
+                row_dict[i + '_verb'] = v.text
+                row_dict[i + '_obj'] = o.text
+
+        return row_dict
+
     def parse(self, result_file_path):
         """
         Parses the article texts from ES and identifies the entities and relationships
@@ -83,75 +109,19 @@ class SentenceParser():
         f_write = open(result_file_path, 'w')
         # For each parsed sentence
         for p_sentence in parsed_sentences:
+            row_dict = {}
+            row_dict = self.get_sub_verb_obj_triplets(p_sentence, row_dict)
             entities = self.get_all_entities(p_sentence)
             relations = self.get_all_relations(p_sentence)
-            rel_dict = self.get_merged_relations(p_sentence)
-            if rel_dict is not None:
-                rel_dict['text'] = p_sentence.text
-                rel_dict['entities'] = json.dumps(entities)
-                rel_dict['relations'] = json.dumps(relations)
-                f_write.write(json.dumps(rel_dict) + '\n')
+            
+            if row_dict is not None:
+                row_dict['text'] = p_sentence.text
+                row_dict['entities'] = json.dumps(entities)
+                row_dict['relations'] = json.dumps(relations)
+                f_write.write(json.dumps(row_dict) + '\n')
         
         f_write.close()
         print('Saved the parsed results at {}'.format(result_file_path))
-
-    def get_merged_relations(self, parsed_sentence):
-        """
-        Iterates through the list of tokens from the parsed sentence and 
-        returns the grouped subject-object relationships as a dictionary
-        
-        For more details on merging dependencies: https://www.analyticsvidhya.com/blog/2019/10/how-to-build-knowledge-graph-text-using-spacy/
-        
-        Arguments:
-            parsed_sentence {Span} -- Spacy parsed sentence object
-        """
-        sub_token_text = ''
-        obj_token_text = ''
-
-        prev_tok_dep = '' # dependency tag of the previous token in the sentence
-        prev_tok_text = '' # text of the previous token in the sentence
-
-        prefix = ''
-        modifier = ''
-        for token in parsed_sentence:
-            # if token is a punctuation mark then move on to the next token
-            if token.dep_ != "punct":
-                # check if the token is a compound word or not
-                if token.dep_ == "compound":
-                    prefix = token.text # Save this compound word as the prefix
-                    # if the previous word was also a 'compound' then add the current word to it
-                    if prev_tok_dep == "compound":
-                        prefix = prev_tok_text + " " + token.text
-                
-                # check: token is a modifier or not
-                if token.dep_.endswith("mod") == True:
-                    modifier = token.text
-                    # if the previous word was also a 'compound' then add the current word to it
-                    if prev_tok_dep == "compound":
-                        modifier = prev_tok_text + " " + token.text
-                 
-                # If the current token is a subject token, group the neighbouring tokens as well, if exists
-                # and reset the prefix and modifier tokens
-                if token.dep_.find("subj") == True:
-                    sub_token_text = modifier + " " + prefix + " " + token.text
-                    prefix = ""
-                    modifier = ""
-                    prev_tok_dep = ""
-                    prev_tok_text = ""
-                
-                # If the current token is an object token, group the neighbouring tokens as well, if exists
-                if token.dep_.find("obj") == True:
-                    obj_token_text = modifier + " " + prefix + " " + token.text
-
-                # finally set the previous token and text and then move on to next
-                prev_tok_dep = token.dep_
-                prev_tok_text = token.text
-
-        # Return the parsed texts
-        if sub_token_text == '' and obj_token_text == '':
-            return None
-        else: 
-            return {'subject': sub_token_text, 'object': obj_token_text}
 
 if __name__ == "__main__":
     sp = SentenceParser()
