@@ -1,7 +1,9 @@
+import elasticsearch
 from elasticsearch import Elasticsearch
 import json
 import conf_parser
 import rss_fetch
+import traceback
 
 elastic_conf = conf_parser.SYS_CONFIG['elastic']
 #print('Read config:', conf_parser.SYS_CONFIG)
@@ -36,9 +38,12 @@ class ESHelper():
             try:
                 # Use item specific id while indexing to avoid duplication
                 self.es.index(index=self.index, doc_type=self.doc_type, id=item['id'], body=item)
-            except KeyError as e:
+            except KeyError:
                 drop_count += 1
-                print(str(e))
+                traceback.print_exc()
+            except elasticsearch.exceptions.RequestError:
+                drop_count += 1
+                traceback.print_exc()
 
         print('Indexed {0} Dropped {1}'.format(len(item_list)-drop_count, drop_count))
         print('Current index size {0}'.format(self.get_index_size()))
