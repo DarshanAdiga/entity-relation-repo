@@ -168,6 +168,7 @@ class SentenceParser():
                     
                     # Mark this as edge
                     edge = doc[start_tok.start:end_tok.end]
+                    print('E>>', edge.text)
                     # Move to next verb phrase
                     vp_i += 1
 
@@ -269,11 +270,12 @@ class SentenceParser():
         """
         verb_phrases = list(textacy.extract.pos_regex_matches(p_sentence, self.VERB_PHRASE_REGEX))
         noun_chunks = list(p_sentence.noun_chunks)
-        # print(p_sentence)
-        # print('NC:', noun_chunks)
-        # print('VP:', verb_phrases)
+        print('*'*30)
+        print(p_sentence)
+        print('NC:', noun_chunks)
+        print('VP:', verb_phrases)
         noun_chunks = self.get_truncated_noun_chunks(noun_chunks, verb_phrases)
-        # print('Truncated_NC:', noun_chunks)
+        print('Truncated_NC:', noun_chunks)
         node_edge_node_list = self.get_node_edge_pairs(p_sentence, verb_phrases, noun_chunks)
         if node_edge_node_list is not None:
             for i,nvn in enumerate(node_edge_node_list):
