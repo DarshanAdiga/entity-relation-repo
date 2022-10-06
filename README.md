@@ -29,6 +29,7 @@ Index the newly available news articles into elasticsearch
 Tokenize and parse the sentences, identify the different entities and relationships
 
 *TODO*: 
+  - USE: https://www.johnsnowlabs.com/finance-nlp/
   - Clean the sentences
   - Detect active and passive voices before finding the relationships
   - Improvise the subject and object detection
